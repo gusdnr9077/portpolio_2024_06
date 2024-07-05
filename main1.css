@@ -1,0 +1,26 @@
+.introduce {
+  width: 100vw;
+  margin: 0 auto;
+  position: relative;
+}
+.who {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(coding2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  margin-top: 50px;
+  gap: 30px;
+}
+.who > h2 {
+  font-size: 60px;
+}
+.who > span {
+  font-weight: bold;
+}
